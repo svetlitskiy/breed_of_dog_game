@@ -1,0 +1,19 @@
+{
+  "name": "breed_of_dog_game",
+  "version": "1.0.0",
+  "description": "Breed of dog game",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d public --presets es2015"
+  },
+  "repository": "https://github.com/svetlitskiy/breed_of_dog_game.git",
+  "author": "Aleksey Svetlitskiy <a.svetlitskiy@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "^7.1.6",
+    "@babel/preset-env": "^7.1.6",
+    "@babel/preset-es2015": "^7.0.0-beta.53"
+  },
+  "dependencies": {}
+}
